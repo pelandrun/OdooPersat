@@ -1,21 +1,24 @@
 {
-	"name": "ranchero/odoo-persat",
-	"description": "Gateway rest para persat odoo",
-	"type": "library",
-	"license": "free",
-	"autoload": {
-		"psr-4": {
-			"Ranchero\\OdooPersat\\": "src/"
-		}
-	},
-	"authors": [
-		{
-			"name": "pelandrun",
-			"email": "javier.zavalia@gmail.com"
-		}
-	],
-	"require": {
-		"eteamsys/ripcord": "^1.0",
-		"vlucas/phpdotenv": "^5.5"
-	}
+  "name": "ranchero/odoo-persat",
+    "description": "Gateway rest para persat odoo",
+    "type": "library",
+    "license": "free",
+    "autoload": {
+      "psr-4": {
+        "Ranchero\\OdooPersat\\": "src/"
+      },
+      "classmap": [
+        "vendor/eteamsys/ripcord/ripcord.php"
+      ] 
+    },
+    "authors": [
+    {
+      "name": "pelandrun",
+      "email": "javier.zavalia@gmail.com"
+    }
+    ],
+    "require": {
+      "eteamsys/ripcord": "^1.0",
+      "vlucas/phpdotenv": "^5.5"
+    }
 }

@@ -1,6 +1,6 @@
 <?php
 namespace Ranchero\OdooPersat;
-require_once(__DIR__ . '/../vendor/eteamsys/ripcord/ripcord.php');
+//require_once(__DIR__ . '/../vendor/eteamsys/ripcord/ripcord.php');
 class Odoo
 {
   var $common;
