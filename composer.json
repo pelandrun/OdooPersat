@@ -8,7 +8,7 @@
         "Ranchero\\OdooPersat\\": "src/"
       },
       "classmap": [
-        "vendor/eteamsys/ripcord/ripcord.php"
+        "./vendor/eteamsys/ripcord/ripcord.php"
       ] 
     },
     "authors": [
