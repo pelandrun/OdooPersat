@@ -6,10 +6,7 @@
     "autoload": {
       "psr-4": {
         "Ranchero\\OdooPersat\\": "src/"
-      },
-      "classmap": [
-        "./vendor/eteamsys/ripcord/ripcord.php"
-      ] 
+      }
     },
     "authors": [
     {
